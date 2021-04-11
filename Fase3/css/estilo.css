@@ -1,0 +1,100 @@
+*{
+    background-color: darkcyan;
+}
+.head1
+{
+    color: black;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 10px;
+}
+.img1
+{
+    float: right;
+}
+.img2
+{
+    float: left;
+}
+.img3
+{
+    float: center;
+}
+nav ul{
+    list-style: none;
+    background-color: darkcyan;
+    padding: 10px;
+    margin: auto;
+   
+}
+
+nav ul li{
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+}
+
+nav ul li a{
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:cyan;
+    margin: 5px;
+    padding: 5px;
+    transition: background-color 1.5s;
+
+}
+
+nav ul li a:hover{
+    background-color: cyan;
+}
+
+nav ul li ul li {
+    display: block;
+
+}
+
+nav ul li ul{
+    width: 150px;
+    height: 105px;
+    display: none;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li a{
+    background-color:cyan;
+}
+section
+{
+    float: left;
+    color: black;
+    background-color: darkcyan;
+    width: 70%;
+}
+aside
+{
+float: left;
+color: black;
+background-color:darkcyan;
+height: auto;
+width: 30%;
+}
+footer
+{
+    background-color:darkcyan;
+    padding: 5px; 
+    text-align: center;
+}
+.interfaz::after
+{
+    content: "";
+    display: block;
+  clear: both;
+}
+.autor{
+    text-align: center;
+}
